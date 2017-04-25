@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+    <Button
+        android:id="@+id/newNuance"
+        android:text="Nuance"
+        />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/newReprise"
+        android:text="Reprise"
+         />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/newAlerte"
+        android:text="Alerte"
+       />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/newArmature"
+        android:text="Armature"
+         />
+    </TableRow>
+
+</LinearLayout>
